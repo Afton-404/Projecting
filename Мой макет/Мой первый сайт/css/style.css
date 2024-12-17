@@ -1,0 +1,136 @@
+head {
+    color: rgb(207, 27, 27);
+}
+
+body {
+    background-color: rgb(187, 133, 32);;
+}
+
+.titlle {
+    text-align: center;
+    padding: 30px;
+    font-size: 50px;
+
+}
+.titlle span {
+    color: rgb(207, 27, 27);
+    padding: 30px;
+    font-size: 40px;
+    
+}
+.block1 {
+    display: flex;
+    border-width: 4px;
+    border-radius: 1px;
+    border-color: rgb(187, 133, 32);;
+    border-style: dotted;
+    justify-content: center;
+    align-items: center;
+}
+.main-info{
+    border-width: 4px;
+    border-radius: 1px;
+    border-color:rgb(187, 133, 32);;
+    border-style: dotted;
+    max-width: 500px;
+    
+}
+
+.block1 a {
+    text-decoration: none;
+}
+
+.block1 img {
+    height: 300px;
+}
+.main-info ul {
+    padding-left: 17px;
+}
+.main-info a {
+    color: rgb(207, 27, 27);
+}
+
+img {
+    height: 300px;
+}
+
+.block2{
+    display: flex;
+    border-width: 4px;
+    border-radius: 1px;
+    border-color: rgb(187, 133, 32);;
+    border-style: dotted;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-info2 {
+    border-width: 4px;
+    border-radius: 1px;
+    border-color: rgb(187, 133, 32);
+    border-style: dotted;
+    max-width: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form {
+    max-width: 420px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.form input {
+    padding: 10px;
+    font-size: 23px;
+    border-radius: 15px;
+    border: 2px solid rgb(175, 171, 171);
+    margin-bottom: 20px;
+
+}
+
+.form button {
+    background-color: rgb(207, 27, 27);
+    padding: 16px;
+    font-size: 23px;
+    border-radius: 15px;
+    border: 2px solid rgb(207, 27, 27);
+    margin-bottom: 20px;
+    color: rgb(40, 28, 209);
+}
+
+.form button:hover {
+    background-color: aqua;
+    border: 2px solid aqua;
+    color: chocolate;
+}
+.form textarea {
+    border-radius: 15px;
+    height: 120px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 23px;
+    border-radius: 15px;
+    border: 2px solid rgb(175, 171, 171);
+}
